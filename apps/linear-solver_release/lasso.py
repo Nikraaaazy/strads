@@ -20,6 +20,6 @@ worker_threads = [' 1 ']
 # degree of parallelism
 set_size = [' 1 ']
 
-prog = ['./bin/cdsolver ']
+prog = ['../../build/apps/linear-solver_release/cdsolver ']
 
 os.system(" mpirun -machinefile "+machfile[0]+" "+prog[0]+" --machfile "+machfile[0]+" -threads "+worker_threads[0]+" -samples "+csample[0]+" -columns "+column[0]+" -data_xfile "+datafilex[0]+" -data_yfile "+datafiley[0]+"  -schedule_size "+set_size[0]+" -max_iter 30000 -lambda 0.001 -scheduler "+cscheduler[0]+" -threads_per_scheduler "+scheduler_threads[0]+" -weight_sampling=false -check_interference=false -algorithm lasso");
