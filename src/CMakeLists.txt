@@ -37,7 +37,7 @@ target_include_directories(petuum_strads PUBLIC
         ${SPARSEHASH_INCLUDE_DIR}  ${LevelDB_INCLUDE_PATH} ${GFLAGS_INCLUDE_DIRS}
         ${LIBCONFIG_INCLUDE_DIR}  
         ${Tcmalloc_INCLUDE_DIR} ${EIGEN3_INCLUDE_DIR}
-        ${MPI_CXX_INCLUDE_PATH} ${PROTOBUF_INCLUDE_DIRS})
+        ${MPI_CXX_INCLUDE_PATH})
 
 target_link_libraries(petuum_strads PUBLIC
 		rt nsl
@@ -46,4 +46,4 @@ target_link_libraries(petuum_strads PUBLIC
         ${GLOG_LIBRARIES}  ${Tcmalloc_LIBRARIES}
         ${LIBCONFIG_LIBRARIES} ${SNAPPY_LIBRARIES} ${Boost_LIBRARIES}
         ${YAML_LIBRARIES} ${LevelDB_LIBRARY} ${GFLAGS_LIBRARIES}
-        ${MPI_CXX_LIBRARIES} ${PROTOBUF_LIBRARIES})
+        ${MPI_CXX_LIBRARIES})
