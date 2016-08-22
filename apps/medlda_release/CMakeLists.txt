@@ -9,8 +9,10 @@ add_executable(medlda ${LS_SOURCE_FILES})
 
 target_include_directories(medlda PUBLIC 
 	${Strads_INCLUDE_DIRS} 
-	${MPI_CXX_INCLUDE_PATH} )
+	${MPI_CXX_INCLUDE_PATH} 
+	${PROTOBUF_INCLUDE_DIR})
 
 target_link_libraries(medlda PUBLIC 
 	petuum_strads 
-	${MPI_CXX_LIBRARIES} )
+	${MPI_CXX_LIBRARIES} 
+	${PROTOBUF_LIBRARY})

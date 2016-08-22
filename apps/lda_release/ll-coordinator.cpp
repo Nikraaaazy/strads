@@ -8,7 +8,7 @@
 #include <glog/logging.h>
 #include <mpi.h>
 #include "trainer.hpp"
-#include "lda.pb.hpp"
+#include "lda.pb.h"
 #include <google/protobuf/message_lite.h>
 #include "util.hpp"
 #include "ldall.hpp"

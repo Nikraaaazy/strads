@@ -12,7 +12,7 @@
 #include <gflags/gflags.h>
 #include <mpi.h>
 #include <assert.h>
-#include "ccdmf.pb.hpp"
+#include "ccdmf.pb.h"
 #include "lccdmf.hpp"
 #include <mutex>
 #include <thread>

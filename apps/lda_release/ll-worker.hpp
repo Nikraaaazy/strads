@@ -13,7 +13,7 @@
 #include <mpi.h>
 #include <assert.h>
 #include "trainer.hpp"
-#include "lda.pb.hpp"
+#include "lda.pb.h"
 #include "util.hpp"
 #include "ldall.hpp"
 #include <mutex>

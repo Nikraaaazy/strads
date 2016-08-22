@@ -46,7 +46,7 @@
 
 #include <glog/logging.h>
 
-#include "lasso.pb.hpp"
+#include "lasso.pb.h"
 #include "lassoll.hpp"
 
 #include "cd-util.hpp"

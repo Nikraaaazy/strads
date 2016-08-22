@@ -11,7 +11,7 @@
 #include "linear-svm.hpp"
 #include "param.hpp"
 #include <string>
-#include "lasso.pb.hpp"
+#include "lasso.pb.h"
 using namespace std;
 
 void *worker_mach(void *arg){

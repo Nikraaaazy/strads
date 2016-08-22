@@ -9,7 +9,7 @@
 #include <mpi.h>
 #include <google/protobuf/message_lite.h>
 #include <strads/sysprotobuf/strads.pb.hpp>
-#include "ccdmf.pb.hpp"
+#include "ccdmf.pb.h"
 #include "lccdmf.hpp"
 #include "util.hpp"
 #include <random>

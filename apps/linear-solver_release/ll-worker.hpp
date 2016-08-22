@@ -17,7 +17,7 @@
 
 #include <pthread.h>
 
-#include "lasso.pb.hpp"
+#include "lasso.pb.h"
 #include "lassoll.hpp"
 
 #include "cd-train.hpp"
