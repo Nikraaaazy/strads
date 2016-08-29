@@ -1,6 +1,6 @@
 #include <strads/ds/dshard.hpp>
 #include <google/protobuf/message_lite.h>
-#include <strads/sysprotobuf/strads.pb.hpp>
+#include <strads.pb.h>
 #include <string>
 
 using namespace std;

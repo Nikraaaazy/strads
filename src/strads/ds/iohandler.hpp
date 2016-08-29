@@ -25,7 +25,7 @@
 #include <assert.h>
 #include <map>
 #include <strads/ds/mm_io.hpp>
-#include <strads/sysprotobuf/strads.pb.hpp>
+#include <strads.pb.h>
 #include <strads/util/utility.hpp>
 
 /* strtok function to parse input data X, Y matrix */

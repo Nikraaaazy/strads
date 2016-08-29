@@ -18,7 +18,8 @@ target_include_directories(lccdmf PUBLIC
 	${GLOG_INCLUDE_DIRS}
 	${GFLAGS_INCLUDE_DIRS}
 	${PROTO_CDMF_INCLUDE_DIR}
-	${PROTOBUF_INCLUDE_DIR})
+	${PROTOBUF_INCLUDE_DIR}
+	${PROTO_SYS_INCLUDE_DIR})
 
 target_link_libraries(lccdmf PUBLIC 
 	petuum_strads 

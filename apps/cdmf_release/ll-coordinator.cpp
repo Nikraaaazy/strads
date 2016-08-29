@@ -8,7 +8,7 @@
 #include <glog/logging.h>
 #include <mpi.h>
 #include <google/protobuf/message_lite.h>
-#include <strads/sysprotobuf/strads.pb.hpp>
+#include <strads.pb.h>
 #include "ccdmf.pb.h"
 #include "lccdmf.hpp"
 #include "util.hpp"

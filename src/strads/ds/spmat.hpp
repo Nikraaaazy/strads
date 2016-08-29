@@ -10,7 +10,7 @@
 
 #include <strads/util/utility.hpp>
 
-#include <strads/sysprotobuf/strads.pb.hpp>
+#include <strads.pb.h>
 
 
 class spmat_vector{

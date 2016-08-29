@@ -4,7 +4,7 @@
 #include <mutex>
 #include <strads/ds/spmat.hpp>
 #include <strads/include/cas_array.hpp>
-#include <strads/sysprotobuf/strads.pb.hpp>
+#include <strads.pb.h>
 
 //enum matrix_type {cm_map, cm_vec, rm_map, rm_vec, dense2d }; // declared in  strads.pb.hpp / sysprobuf directory   
 // cm_map : colum major sparse matrix with STL map representation
