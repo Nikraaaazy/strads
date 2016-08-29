@@ -1,3 +1,4 @@
+syntax = "proto2";
 package strads_sysmsg;
 
 enum matrix_type {
